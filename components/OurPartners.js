@@ -20,7 +20,7 @@ const OurPartners = () => {
     <div className="bg-customLightGray px-10 py-16 text-center flex flex-col items-center">
       <h1 className="text-6xl mb-10">OUR PARTNERS</h1>
 
-      <Slider className="gap-6" {...settings}>
+      <div className="flex justify-center gap-6">
         <div>
           <Image
             src="/homePage/ourPartner1.png"
@@ -69,7 +69,7 @@ const OurPartners = () => {
             alt=""
           />
         </div>
-      </Slider>
+      </div>
     </div>
   )
 }
