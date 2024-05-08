@@ -34,3 +34,30 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+<!-- {/_ <nav className="fixed top-0 left-0 right-0">
+<div className="max-w-7xl flex justify-between mx-auto px-4 py-5 items-center">
+<div>
+<Image
+              src="/homePage/upfrontLogo.svg"
+              width={109}
+              height={103}
+              alt="upfront logo"
+            />
+</div>
+<ul className="flex items-center gap-4">
+<li>
+<button>ABOUT US</button>
+</li>
+<li>
+<button>OUR WORK</button>
+</li>
+<li>
+<button>INSIGHTS</button>
+</li>
+<li>
+<button>CONTACT US</button>
+</li>
+</ul>
+</div>
+</nav> _/} -->

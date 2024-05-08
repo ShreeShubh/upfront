@@ -1,18 +1,30 @@
 /** @type {import('tailwindcss').Config} */
+
 module.exports = {
   content: [
-    "./pages/**/*.{js,ts,jsx,tsx,mdx}",
-    "./components/**/*.{js,ts,jsx,tsx,mdx}",
-    "./app/**/*.{js,ts,jsx,tsx,mdx}",
+    './node_modules/flowbite/**/*.js',
+    './pages/**/*.{js,ts,jsx,tsx,mdx}',
+    './components/**/*.{js,ts,jsx,tsx,mdx}',
+    './app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
   theme: {
+    listStyleType: {
+      none: 'none',
+      disc: 'disc',
+      square: 'square',
+    },
     extend: {
+      colors: {
+        customGray: '#222222',
+        customLightGray: '#E8E8E8',
+        customGrayMd: '#4A4A4A',
+        customBlack: '#080808',
+        activeTabButton: '#C9C9C9',
+      },
       backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+        ourStory: "url('/ourStory/banner.png')",
       },
     },
   },
-  plugins: [],
-};
+  plugins: [require('flowbite/plugin')],
+}
