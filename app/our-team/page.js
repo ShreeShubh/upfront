@@ -17,17 +17,18 @@ const page = () => {
         <ul className="flex justify-between flex-wrap gap-6 p-3 mt-8">
           {coreTeam.map((item) => {
             return (
-              <li key={item.id} className="border-s border-black">
-                <div className="ps-3 space-y-2">
+              <li key={item.id} className="border-s border-black w-1/5">
+                <div className="ps-3 h-full aspect-w-1 aspect-h-1 flex flex-col">
                   <Image
                     src={item.imageUrl}
                     width={250}
                     height={250}
                     alt={item.name}
+                    className="object-cover mb-3"
                   />
                   <p>{item.name}</p>
-                  <p className="text-[#7E7E7E]">{item.post}</p>
-                  <p className="text-4xl text-[#0177B7] mt-3">{item.logo}</p>
+                  <p className="text-[#7E7E7E] w-9/12 mb-3">{item.post}</p>
+                  <p className="text-4xl text-[#0177B7] mt-auto">{item.logo}</p>
                 </div>
               </li>
             )
