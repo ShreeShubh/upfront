@@ -212,7 +212,7 @@ export const coreTeam = [
   },
   {
     id: 17,
-    imageUrl: '/coreTeam/ShaonliC.png',
+    imageUrl: '/coreTeam/shaonliC.png',
     name: 'Shaonli Chakraborty',
     post: 'Director',
     logo: <FaLinkedin />,
@@ -226,7 +226,7 @@ export const coreTeam = [
   },
   {
     id: 19,
-    imageUrl: '/coreTeam/PrabhakaranV.png',
+    imageUrl: '/coreTeam/prabhakaranV.png',
     name: 'Prabhakaran V',
     post: 'Programme Specialist',
     logo: <FaLinkedin />,
