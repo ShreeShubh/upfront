@@ -1,6 +1,6 @@
 import CaseStudy from '@components/CaseStudy'
 import Header from '@components/Header'
-import HomeCarousel from '@components/HomeCarousel'
+import HomeCarouselA from '@components/HomeCarouselA'
 import ImpactStories from '@components/ImpactStories'
 import OurPartners from '@components/OurPartners'
 import OurPresence from '@components/OurPresence'
@@ -15,7 +15,7 @@ export default function Home() {
     <>
       <div className="relative">
         <Header />
-        <HomeCarousel details={homeBannerCarousel} />
+        <HomeCarouselA />
       </div>
       <div className="max-w-screen-xl mx-auto px-40 py-20 tracking-wide">
         <p className="text-center">
