@@ -1,5 +1,4 @@
-import Image from 'next/image'
-import React from 'react'
+'use client'
 
 const HomeCarousel = ({ details }) => {
   return (
@@ -16,11 +15,9 @@ const HomeCarousel = ({ details }) => {
               class="hidden duration-700 ease-in-out"
               data-carousel-item
             >
-              <Image
+              <img
                 src={item.imageUrl}
                 class={`absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 ${item.customHeight}`}
-                width={1000}
-                height={500}
                 alt="..."
               />
               <div className="absolute top-1/2 left-52 w-1/3">
