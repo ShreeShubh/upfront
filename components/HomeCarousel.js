@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import React from 'react'
 
 const HomeCarousel = ({ details }) => {
@@ -7,7 +8,7 @@ const HomeCarousel = ({ details }) => {
       class={`relative w-full ${details[0].customHeight}`}
       data-carousel="static"
     >
-      <div class={`relative h-full overflow-hidden`}>
+      <div class={`relative overflow-hidden ${details[0].customHeight}`}>
         {details.map((item) => {
           return (
             <div
@@ -15,9 +16,11 @@ const HomeCarousel = ({ details }) => {
               class="hidden duration-700 ease-in-out"
               data-carousel-item
             >
-              <img
+              <Image
                 src={item.imageUrl}
                 class={`absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 ${item.customHeight}`}
+                width={1000}
+                height={500}
                 alt="..."
               />
               <div className="absolute top-1/2 left-52 w-1/3">
