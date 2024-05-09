@@ -14,7 +14,7 @@ const Footer = () => {
           />
         </div>
         <div className="flex gap-16">
-          <ul className="text-customGrayMd text-xl">
+          <ul className="text-white/60 text-xl">
             <h3 className="text-white text-2xl">ABOUT US</h3>
             <div className="w-[175px] h-[1px] bg-customGrayMd my-3"></div>
             <li>Our Story</li>
@@ -29,7 +29,7 @@ const Footer = () => {
             <h3 className="text-white text-2xl">INSIGHTS</h3>
             <div className="w-[175px] h-[1px] bg-customGrayMd my-3"></div>
           </ul>
-          <ul className="text-customGrayMd text-xl">
+          <ul className="text-white/60 text-xl">
             <h3 className="text-white text-2xl">CONTACT US</h3>
             <div className="w-[175px] h-[1px] bg-customGrayMd my-3"></div>
             <li>Email: 123@gmail.com</li>

@@ -1,5 +1,6 @@
 import CaseStudy from '@components/CaseStudy'
 import Header from '@components/Header'
+import HomeCarousel from '@components/HomeCarousel'
 import ImpactStories from '@components/ImpactStories'
 import OurPartners from '@components/OurPartners'
 import OurPresence from '@components/OurPresence'
@@ -7,12 +8,14 @@ import OurReach from '@components/OurReach'
 import ThematicAreas from '@components/ThematicAreas'
 import WhatWeDo from '@components/WhatWeDo'
 import WhoAreWe from '@components/WhoAreWe'
+import { homeBannerCarousel } from '@utils/data'
 
 export default function Home() {
   return (
     <>
-      <div className="bg-[url('/homePage/homeBanner.png')] bg-cover h-screen">
+      <div className="relative">
         <Header />
+        <HomeCarousel details={homeBannerCarousel} />
       </div>
       <div className="max-w-screen-xl mx-auto px-40 py-20 tracking-wide">
         <p className="text-center">

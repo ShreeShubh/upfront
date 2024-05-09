@@ -19,7 +19,7 @@ const ImpactStories = () => {
                     alt={item.title}
                     className="w-full"
                   />
-                  <div className="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-50 transition-opacity duration-300"></div>
+                  <div className="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-50 cursor-pointer transition-opacity duration-300"></div>
                 </div>
                 <p>{item.title}</p>
               </div>

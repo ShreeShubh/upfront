@@ -1,15 +1,11 @@
-import Image from 'next/image'
+import HomeCarousel from './HomeCarousel'
+import { whoAreWeCarousel } from '@utils/data'
 
 const WhoAreWe = () => {
   return (
     <div className="flex justify-between">
       <div className="w-3/5">
-        <Image
-          src="/homePage/whoAreWe.png"
-          width={894}
-          height={560}
-          alt="who are we"
-        />
+        <HomeCarousel details={whoAreWeCarousel} />
       </div>
       <div className="w-2/5 ps-10 flex flex-col justify-between items-start">
         <h1 className="text-6xl">
