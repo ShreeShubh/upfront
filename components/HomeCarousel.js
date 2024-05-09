@@ -7,7 +7,7 @@ const HomeCarousel = ({ details }) => {
       class={`relative w-full ${details[0].height}`}
       data-carousel="static"
     >
-      <div class={`relative h-56 overflow-hidden md:${details[0].height}`}>
+      <div class={`relative overflow-hidden ${details[0].height}`}>
         {details.map((item) => {
           return (
             <div
