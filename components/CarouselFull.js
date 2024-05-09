@@ -1,53 +1,34 @@
-import React from 'react'
+'use client'
 
-const HomeCarouselA = () => {
+const CarouselFull = ({ details }) => {
   return (
     <div
       id="controls-carousel"
-      class="relative w-full h-screen"
-      data-carousel="slide"
+      class="relative w-full h-full"
+      data-carousel="static"
     >
-      <div class="relative h-full overflow-hidden">
-        <div class="hidden duration-700 ease-in-out" data-carousel-item>
-          <img
-            src="/homePage/homeBanner1.png"
-            class="absolute block w-full h-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
-            alt="..."
-          />
-        </div>
-
-        <div
-          class="hidden duration-700 ease-in-out"
-          data-carousel-item="active"
-        >
-          <img
-            src="/homePage/homeBanner2.png"
-            class="absolute block w-full h-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
-            alt="..."
-          />
-        </div>
-
-        <div class="hidden duration-700 ease-in-out" data-carousel-item>
-          <img
-            src="/homePage/homeBanner3.png"
-            class="absolute block w-full h-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
-            alt="..."
-          />
-        </div>
-        <div class="hidden duration-700 ease-in-out" data-carousel-item>
-          <img
-            src="/homePage/homeBanner4.png"
-            class="absolute block w-full h-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
-            alt="..."
-          />
-        </div>
-        <div class="hidden duration-700 ease-in-out" data-carousel-item>
-          <img
-            src="/homePage/homeBanner5.png"
-            class="absolute block w-full h-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
-            alt="..."
-          />
-        </div>
+      <div class="relative overflow-hidden h-full">
+        {details.map((item) => {
+          return (
+            <div
+              key={item.id}
+              class="hidden duration-700 ease-in-out"
+              data-carousel-item
+            >
+              <img
+                src={item.imageUrl}
+                class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 h-full"
+                alt="..."
+              />
+              <div className="absolute top-1/2 left-52 w-1/3">
+                <h2 className="text-4xl text-white bg-red-600 p-1 inline-block">
+                  {item.title}
+                </h2>
+                <p className="text-4xl text-white">{item.description}</p>
+              </div>
+            </div>
+          )
+        })}
       </div>
       <button
         type="button"
@@ -101,4 +82,4 @@ const HomeCarouselA = () => {
   )
 }
 
-export default HomeCarouselA
+export default CarouselFull

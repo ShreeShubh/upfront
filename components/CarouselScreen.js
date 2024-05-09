@@ -1,13 +1,14 @@
-'use client'
+import { homeBannerCarousel } from '@utils/data'
+import React from 'react'
 
-const HomeCarousel = ({ details }) => {
+const CarouselScreen = ({ details }) => {
   return (
     <div
       id="controls-carousel"
-      class={`relative w-full ${details[0].customHeight}`}
-      data-carousel="static"
+      class="relative w-full h-screen"
+      data-carousel="slide"
     >
-      <div class={`relative overflow-hidden ${details[0].customHeight}`}>
+      <div class="relative h-full overflow-hidden">
         {details.map((item) => {
           return (
             <div
@@ -17,7 +18,7 @@ const HomeCarousel = ({ details }) => {
             >
               <img
                 src={item.imageUrl}
-                class={`absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 ${item.customHeight}`}
+                class={`absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 h-screen`}
                 alt="..."
               />
               <div className="absolute top-1/2 left-52 w-1/3">
@@ -82,4 +83,4 @@ const HomeCarousel = ({ details }) => {
   )
 }
 
-export default HomeCarousel
+export default CarouselScreen

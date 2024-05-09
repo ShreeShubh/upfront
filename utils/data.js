@@ -6,14 +6,12 @@ export const homeBannerCarousel = [
     imageUrl: '/homePage/homeBanner1.png',
     title: 'Making Wellbeing Reality for Workforces!',
     description: 'By working with the workforce and the systems',
-    customHeight: 'h-screen',
   },
   {
     id: 2,
     imageUrl: '/homePage/homeBanner2.png',
     title: 'Making Wellbeing Reality for Workforces!',
     description: 'By changing mindsets, behaviours and practices',
-    customHeight: 'h-screen',
   },
   {
     id: 3,
@@ -21,21 +19,18 @@ export const homeBannerCarousel = [
     title: 'Making Wellbeing Reality for Workforces!',
     description:
       'By improving skills, financial security, processes and policies',
-    customHeight: 'h-screen',
   },
   {
     id: 4,
     imageUrl: '/homePage/homeBanner4.png',
     title: 'Making Wellbeing Reality for Workforces!',
     description: 'By building agency, ensuring voices and choices',
-    customHeight: 'h-screen',
   },
   {
     id: 5,
     imageUrl: '/homePage/homeBanner5.png',
     title: 'Making Wellbeing Reality for Workforces!',
     description: 'By establishing partnerships and collaborations',
-    customHeight: 'h-screen',
   },
 ]
 
@@ -45,28 +40,24 @@ export const whoAreWeCarousel = [
     imageUrl: '/homePage/whoAreWe/banner1.png',
     title: '',
     description: '',
-    customHeight: 'h-full',
   },
   {
     id: 2,
     imageUrl: '/homePage/whoAreWe/banner2.png',
     title: '',
     description: '',
-    customHeight: 'h-full',
   },
   {
     id: 3,
     imageUrl: '/homePage/whoAreWe/banner3.png',
     title: '',
     description: '',
-    customHeight: 'h-full',
   },
   {
     id: 4,
     imageUrl: '/homePage/whoAreWe/banner4.png',
     title: '',
     description: '',
-    customHeight: 'h-full',
   },
 ]
 

@@ -1,11 +1,11 @@
-import HomeCarousel from './HomeCarousel'
+import CarouselFull from './CarouselFull'
 import { whoAreWeCarousel } from '@utils/data'
 
 const WhoAreWe = () => {
   return (
     <div className="flex justify-between">
       <div className="w-3/5">
-        <HomeCarousel details={whoAreWeCarousel} />
+        <CarouselFull details={whoAreWeCarousel} />
       </div>
       <div className="w-2/5 ps-10 flex flex-col justify-between items-start">
         <h1 className="text-6xl">
