@@ -5,7 +5,7 @@ const CarouselFull = ({ details }) => {
     <div
       id="controls-carousel"
       class="relative w-full h-full"
-      data-carousel="static"
+      data-carousel="slide"
     >
       <div class="relative overflow-hidden h-full">
         {details.map((item) => {
