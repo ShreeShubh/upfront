@@ -4,10 +4,10 @@ const HomeCarousel = ({ details }) => {
   return (
     <div
       id="controls-carousel"
-      class={`relative w-full ${details[0].height}`}
+      class={`relative w-full ${details[0].customHeight}`}
       data-carousel="static"
     >
-      <div class={`relative overflow-hidden ${details[0].height}`}>
+      <div class={`relative overflow-hidden ${details[0].customHeight}`}>
         {details.map((item) => {
           return (
             <div
@@ -17,7 +17,7 @@ const HomeCarousel = ({ details }) => {
             >
               <img
                 src={item.imageUrl}
-                class={`absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 ${item.height}`}
+                class={`absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 ${item.customHeight}`}
                 alt="..."
               />
               <div className="absolute top-1/2 left-52 w-1/3">
