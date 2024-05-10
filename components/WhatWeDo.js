@@ -20,8 +20,8 @@ const WhatWeDo = () => {
       <div className="w-3/5">
         <Image
           src="/homePage/whatWeDo.png"
-          width={740}
-          height={669}
+          width={650}
+          height={581}
           alt="what we do"
         />
       </div>

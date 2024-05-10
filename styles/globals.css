@@ -25,6 +25,18 @@ body {
   border-bottom: 15px solid transparent;
 }
 
+.triangle-left {
+  width: 0;
+  height: 0;
+  border-top: 15px solid transparent;
+  border-right: 20px solid #f40f34;
+  border-bottom: 15px solid transparent;
+}
+
+.triangle-red {
+  border-left: 20px solid #f40f34;
+}
+
 .hide-scrollbar::-webkit-scrollbar {
   display: none;
 }

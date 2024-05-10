@@ -1,6 +1,8 @@
 'use client'
 
 import Header from '@components/Header'
+import OurMission from '@components/OurMission'
+import OurVision from '@components/OurVision'
 import Tab from '@components/Tab'
 import ThematicAreas from '@components/ThematicAreas'
 import { ourStoryTabs } from '@utils/data'
@@ -23,11 +25,11 @@ const page = () => {
 
       <div className="px-10 py-16">
         <h1 className="text-6xl">
-          WHY <br /> WORKFORCE <br /> WELLBEING?
+          WHY WORKFORCE <br /> WELLBEING?
         </h1>
       </div>
 
-      <div className="relative mb-96">
+      {/* <div className="relative mb-96">
         <div className="p-10 flex justify-center">
           <ul className="flex justify-between w-3/4 px-6">
             <li className="w-36 h-36 rounded-full border-8 border-[#FACDD4] bg-customGray flex justify-center items-center">
@@ -103,11 +105,21 @@ const page = () => {
             </li>
           </ul>
         </div>
+      </div> */}
+
+      <div className="px-10 pb-16 flex justify-center">
+        <Image
+          src="/ourStory/workForceWellbeing.svg"
+          width={1000}
+          height={700}
+          className="w-11/12"
+          alt=""
+        />
       </div>
 
-      <div className="mt-[500px]">
-        <ThematicAreas />
-      </div>
+      <ThematicAreas />
+      <OurVision />
+      {/* <OurMission /> */}
     </>
   )
 }
