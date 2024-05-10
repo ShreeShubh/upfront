@@ -8,7 +8,7 @@ const OurVision = () => {
           <h2 className="text-5xl text-white">
             OUR <br /> VISION
           </h2>
-          <p className="text-white text-xl w-3/5">
+          <p className="text-white text-xl w-3/4">
             Make Wellbeing a reality for the Workforces
           </p>
         </div>

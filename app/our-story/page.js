@@ -119,7 +119,22 @@ const page = () => {
 
       <ThematicAreas />
       <OurVision />
-      {/* <OurMission /> */}
+      <OurMission />
+
+      <div className="px-10 py-16">
+        <h1 className="text-6xl">
+          OUR <br /> HISTORY
+        </h1>
+        <div className="flex pt-16 justify-center">
+          <Image
+            src="/ourStory/ourHistory.png"
+            width={1000}
+            height={700}
+            className="w-11/12"
+            alt=""
+          />
+        </div>
+      </div>
     </>
   )
 }
