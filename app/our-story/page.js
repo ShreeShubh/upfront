@@ -109,7 +109,7 @@ const page = () => {
 
       <div className="px-10 pb-16 flex justify-center">
         <Image
-          src="/ourStory/workForceWellbeing.svg"
+          src="/ourStory/workForceWellbeing.png"
           width={1000}
           height={700}
           className="w-11/12"
