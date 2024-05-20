@@ -614,3 +614,54 @@ export const insights = [
       'What we eat is a step that contributes to a healthy life. With the pace of technology today, there is an array of articles and documentaries to disseminate awareness about health, fitness and nutrition.',
   },
 ]
+
+export const impact = [
+  {
+    id: 1,
+    imageUrl: '/whatWeDo/constructionWorkers.png',
+    count: '507,670',
+    title: 'Construction workers',
+  },
+  {
+    id: 2,
+    imageUrl: '/whatWeDo/womenSexWorkers.png',
+    count: '33,58,040',
+    title: 'Women sex workers',
+  },
+  {
+    id: 3,
+    imageUrl: '/whatWeDo/factoryWorkers1.png',
+    count: '315,564',
+    title: 'Factory workers',
+  },
+  {
+    id: 4,
+    imageUrl: '/whatWeDo/healthCareProviders.png',
+    count: '899',
+    title: 'Health Care Providers',
+  },
+  {
+    id: 5,
+    imageUrl: '/whatWeDo/farmers.png',
+    count: '30,03,585',
+    title: 'Farmers',
+  },
+  {
+    id: 6,
+    imageUrl: '/whatWeDo/fisherfolks.png',
+    count: '306,811',
+    title: 'Fisherfolks',
+  },
+  {
+    id: 7,
+    imageUrl: '/whatWeDo/informalWorkers.png',
+    count: '453,522*',
+    title: 'Informal Workers**',
+  },
+  {
+    id: 8,
+    imageUrl: '/whatWeDo/streetVendors1.png',
+    count: '352,970',
+    title: 'Street Vendors',
+  },
+]
