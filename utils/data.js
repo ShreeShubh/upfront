@@ -491,6 +491,12 @@ export const insights = [
       'Nutrition for nourishment - Healthy food habits are a gateway to workforce wellbeing',
     description:
       'What we eat is a step that contributes to a healthy life. With the pace of technology today, there is an array of articles and documentaries to disseminate awareness about health, fitness and nutrition.',
+    details: {
+      imageUrl: '',
+      imageDate: '',
+      heading: '',
+      description: '',
+    },
   },
   {
     id: 2,
@@ -502,6 +508,12 @@ export const insights = [
       'Nutrition for nourishment - Healthy food habits are a gateway to workforce wellbeing',
     description:
       'What we eat is a step that contributes to a healthy life. With the pace of technology today, there is an array of articles and documentaries to disseminate awareness about health, fitness and nutrition.',
+    details: {
+      imageUrl: '',
+      imageDate: '',
+      heading: '',
+      description: '',
+    },
   },
   {
     id: 3,
@@ -513,6 +525,12 @@ export const insights = [
       'Nutrition for nourishment - Healthy food habits are a gateway to workforce wellbeing',
     description:
       'What we eat is a step that contributes to a healthy life. With the pace of technology today, there is an array of articles and documentaries to disseminate awareness about health, fitness and nutrition.',
+    details: {
+      imageUrl: '',
+      imageDate: '',
+      heading: '',
+      description: '',
+    },
   },
   {
     id: 4,
@@ -524,6 +542,12 @@ export const insights = [
       'Nutrition for nourishment - Healthy food habits are a gateway to workforce wellbeing',
     description:
       'What we eat is a step that contributes to a healthy life. With the pace of technology today, there is an array of articles and documentaries to disseminate awareness about health, fitness and nutrition.',
+    details: {
+      imageUrl: '',
+      imageDate: '',
+      heading: '',
+      description: '',
+    },
   },
   {
     id: 5,
@@ -535,6 +559,12 @@ export const insights = [
       'Nutrition for nourishment - Healthy food habits are a gateway to workforce wellbeing',
     description:
       'What we eat is a step that contributes to a healthy life. With the pace of technology today, there is an array of articles and documentaries to disseminate awareness about health, fitness and nutrition.',
+    details: {
+      imageUrl: '',
+      imageDate: '',
+      heading: '',
+      description: '',
+    },
   },
   {
     id: 6,
@@ -546,6 +576,12 @@ export const insights = [
       'Nutrition for nourishment - Healthy food habits are a gateway to workforce wellbeing',
     description:
       'What we eat is a step that contributes to a healthy life. With the pace of technology today, there is an array of articles and documentaries to disseminate awareness about health, fitness and nutrition.',
+    details: {
+      imageUrl: '',
+      imageDate: '',
+      heading: '',
+      description: '',
+    },
   },
   {
     id: 7,
@@ -557,6 +593,12 @@ export const insights = [
       'Nutrition for nourishment - Healthy food habits are a gateway to workforce wellbeing',
     description:
       'What we eat is a step that contributes to a healthy life. With the pace of technology today, there is an array of articles and documentaries to disseminate awareness about health, fitness and nutrition.',
+    details: {
+      imageUrl: '',
+      imageDate: '',
+      heading: '',
+      description: '',
+    },
   },
   {
     id: 8,
@@ -568,6 +610,12 @@ export const insights = [
       'Nutrition for nourishment - Healthy food habits are a gateway to workforce wellbeing',
     description:
       'What we eat is a step that contributes to a healthy life. With the pace of technology today, there is an array of articles and documentaries to disseminate awareness about health, fitness and nutrition.',
+    details: {
+      imageUrl: '',
+      imageDate: '',
+      heading: '',
+      description: '',
+    },
   },
   {
     id: 9,
@@ -579,6 +627,12 @@ export const insights = [
       'Nutrition for nourishment - Healthy food habits are a gateway to workforce wellbeing',
     description:
       'What we eat is a step that contributes to a healthy life. With the pace of technology today, there is an array of articles and documentaries to disseminate awareness about health, fitness and nutrition.',
+    details: {
+      imageUrl: '',
+      imageDate: '',
+      heading: '',
+      description: '',
+    },
   },
   {
     id: 10,
@@ -590,6 +644,12 @@ export const insights = [
       'Nutrition for nourishment - Healthy food habits are a gateway to workforce wellbeing',
     description:
       'What we eat is a step that contributes to a healthy life. With the pace of technology today, there is an array of articles and documentaries to disseminate awareness about health, fitness and nutrition.',
+    details: {
+      imageUrl: '',
+      imageDate: '',
+      heading: '',
+      description: '',
+    },
   },
   {
     id: 11,
@@ -601,6 +661,12 @@ export const insights = [
       'Nutrition for nourishment - Healthy food habits are a gateway to workforce wellbeing',
     description:
       'What we eat is a step that contributes to a healthy life. With the pace of technology today, there is an array of articles and documentaries to disseminate awareness about health, fitness and nutrition.',
+    details: {
+      imageUrl: '',
+      imageDate: '',
+      heading: '',
+      description: '',
+    },
   },
   {
     id: 12,
@@ -612,6 +678,12 @@ export const insights = [
       'Nutrition for nourishment - Healthy food habits are a gateway to workforce wellbeing',
     description:
       'What we eat is a step that contributes to a healthy life. With the pace of technology today, there is an array of articles and documentaries to disseminate awareness about health, fitness and nutrition.',
+    details: {
+      imageUrl: '',
+      imageDate: '',
+      heading: '',
+      description: '',
+    },
   },
 ]
 

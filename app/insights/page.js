@@ -1,5 +1,6 @@
 'use client'
 
+import { useRouter } from 'next/navigation'
 import Header from '@components/Header'
 import Tab from '@components/Tab'
 import { insights, insightsTabs } from '@utils/data'
@@ -7,8 +8,13 @@ import Image from 'next/image'
 import { useState } from 'react'
 
 const page = () => {
+  const router = useRouter()
   const [visibleItems, setVisibleItems] = useState(8)
   const [activeTab, setActiveTab] = useState('Stories')
+
+  const handleClick = (category, title) => {
+    router.push(`insights/${category}/${title}`)
+  }
 
   const handleLoadMore = () => {
     setVisibleItems((prevVisibleItems) => prevVisibleItems + 4)
@@ -61,7 +67,10 @@ const page = () => {
                     <p className="text-gray-400 text-sm mt-3">{item.date}</p>
                     <p className="mt-5">{item.title}</p>
                     <p className="text-sm mt-3">{item.description}</p>
-                    <button className="px-7 py-1 mt-6 border border-customLightGray">
+                    <button
+                      className="px-7 py-1 mt-6 border border-customLightGray"
+                      onClick={() => handleClick(item.category, item.title)}
+                    >
                       Read
                     </button>
                   </div>
