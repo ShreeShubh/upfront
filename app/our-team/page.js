@@ -12,7 +12,9 @@ const page = () => {
         </h1>
       </div>
       <div className="px-10 py-16 ">
-        <h1 className="text-6xl mb-6">CORE TEAM</h1>
+        <h1 className="text-6xl mb-6">
+          <span className="text-red-600">CORE</span> TEAM
+        </h1>
         <hr />
         <ul className="flex justify-between flex-wrap gap-6 p-3 mt-8">
           {coreTeam.map((item) => {
@@ -37,7 +39,9 @@ const page = () => {
       </div>
 
       <div className="px-10 pt-10 pb-16 bg-customLightGray/25 ">
-        <h1 className="text-6xl mb-6">OUR ADVISORS</h1>
+        <h1 className="text-6xl mb-6">
+          <span className="text-red-600">OUR</span> ADVISORS
+        </h1>
         <hr />
         <ul className="flex justify-between flex-wrap gap-6 p-3 mt-8">
           {ourAdvisors.map((item) => {

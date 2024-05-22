@@ -25,7 +25,7 @@ const page = () => {
 
       <div className="px-10 py-16">
         <h1 className="text-6xl">
-          WHY WORKFORCE <br /> WELLBEING?
+          <span className="text-red-600">WHY</span> WORKFORCE <br /> WELLBEING?
         </h1>
       </div>
 
@@ -123,7 +123,7 @@ const page = () => {
 
       <div className="px-10 py-16">
         <h1 className="text-6xl">
-          OUR <br /> HISTORY
+          <span className="text-red-600">OUR</span> <br /> HISTORY
         </h1>
         <div className="flex pt-16 justify-center">
           <Image

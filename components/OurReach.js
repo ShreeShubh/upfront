@@ -5,7 +5,7 @@ const OurReach = () => {
   return (
     <div className="bg-customLightGray bg-opacity-60 py-16 px-10 flex justify-between items-center">
       <h1 className="text-6xl">
-        OUR <br /> REACH
+        <span className="text-red-600">OUR</span> <br /> REACH
       </h1>
       <ul className="flex gap-14 px-20">
         {ourReach.map((item, index) => {

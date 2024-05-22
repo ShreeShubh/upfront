@@ -5,7 +5,7 @@ const WhatWeDo = () => {
     <div className="my-16 ps-10 flex justify-between">
       <div className="w-2/5 flex flex-col justify-evenly items-start">
         <h1 className="text-6xl">
-          WHAT <br /> WE <br /> DO?
+          <span className="text-red-600">WHAT</span> <br /> WE <br /> DO?
         </h1>
         <p className="w-3/5 tracking-wide">
           Upfront aims to achieve workforce wellbeing by unlocking human

@@ -193,7 +193,7 @@ const page = ({ params }) => {
                     </p>
                     <button
                       type="button"
-                      className="text-gray-900 mt-5  rounded-sm hover:text-white border border-gray-300 hover:bg-gray-900 focus:ring-4 focus:outline-none focus:ring-gray-300 font-medium  text-sm px-6 py-2 lg:w-24 text-center me-2 mb-2 dark:border-gray-600 dark:text-gray-400 dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-gray-800"
+                      className="text-gray-900 mt-5 rounded-sm hover:text-white border border-gray-300 hover:bg-gray-900 focus:ring-4 focus:outline-none focus:ring-gray-300 font-medium  text-sm px-6 py-2 lg:w-24 text-center me-2 mb-2 dark:border-gray-600 dark:text-gray-400 dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-gray-800"
                     >
                       Read
                     </button>

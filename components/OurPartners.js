@@ -49,7 +49,9 @@ const OurPartners = () => {
 
   return (
     <div className="bg-customLightGray px-10 py-16 text-center">
-      <h1 className="text-6xl mb-10">OUR PARTNERS</h1>
+      <h1 className="text-6xl mb-10">
+        <span className="text-red-600">OUR</span> PARTNERS
+      </h1>
       <div className="ps-11">
         <Slider className="" {...settings}>
           <div>

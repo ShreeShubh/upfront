@@ -9,7 +9,7 @@ const WhoAreWe = () => {
       </div>
       <div className="w-2/5 ps-10 flex flex-col justify-between items-start">
         <h1 className="text-6xl">
-          WHO <br /> ARE WE?
+          <span className="text-red-600">WHO</span> <br /> ARE WE?
         </h1>
         <p className="w-3/5 tracking-wide">
           Upfront strives to make wellbeing a reality for formal and informal

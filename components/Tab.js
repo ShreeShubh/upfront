@@ -18,7 +18,7 @@ const Tab = ({ tabs, getActiveTab }) => {
               key={item.id}
               className={
                 active === item.id
-                  ? 'bg-activeTabButton border-b-4 border-black'
+                  ? 'bg-activeTabButton border-b-4 border-red-600'
                   : ''
               }
             >

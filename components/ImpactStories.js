@@ -5,7 +5,9 @@ import React from 'react'
 const ImpactStories = () => {
   return (
     <div className="px-10 py-20 space-y-7">
-      <h1 className="text-5xl">IMPACT STORIES</h1>
+      <h1 className="text-5xl">
+        <span className="text-red-600">IMPACT</span> STORIES
+      </h1>
       <ul className="flex gap-7">
         {impactStories.map((item) => {
           return (
