@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import CarouselFull from './CarouselFull'
 import { whoAreWeCarousel } from '@utils/data'
 
@@ -20,9 +21,11 @@ const WhoAreWe = () => {
           enterprise platform that enhances the health and wealth of vulnerable
           people and the planet.
         </p>
-        <button className="border border-gray-300 px-5 py-2">
-          Find out more
-        </button>
+        <Link href="/what-we-do">
+          <button className="border border-gray-300 px-5 py-2">
+            Find out more
+          </button>
+        </Link>
       </div>
     </div>
   )
